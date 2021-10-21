@@ -43,7 +43,7 @@
                     $email = $_POST['mail'];
                     $contact = $_POST['contact'];
 
-                    $insert_query = "INSERT INTO student(name,roll,mail,contact) values('$studentName','$roll','$mail','$contact')";
+                    $insert_query = "INSERT INTO student(name,roll,mail,contact) values('$studentName','$roll','$email','$contact')";
 
                     $result = mysqli_query($connection, $insert_query);
 
